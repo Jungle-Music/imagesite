@@ -3495,7 +3495,11 @@ header{background:#000;position:relative;min-height:171px;border-bottom:solid #4
 .slide .vertical-center{position:absolute;left:0;top:0;width:100%;height:100%;justify-content:center}
 /*https://wallpapercave.com/wp/Ohq5Pdv.jpg  */
 /*  https://images3.alphacoders.com/316/thumb-1920-31629.jpg */
-.slide{background:url('https://images3.alphacoders.com/674/thumb-1920-674048.jpg ');min-height:460px;background-size:auto 100%;background-position:center center}
+.slide{background:url('https://images3.alphacoders.com/674/thumb-1920-674048.jpg ');
+  min-height:460px;
+  background-size:auto 100%;
+  background-position:center center;
+}
 /* https://images2.alphacoders.com/724/thumb-1920-724132.jpg*/
 .slide_img_2{min-height:444px;background-size:auto 100%;background-position:center center}
 
@@ -3503,7 +3507,7 @@ header{background:#000;position:relative;min-height:171px;border-bottom:solid #4
 
 .slider_cont::after{
   max-width:945px;min-height:272px;
-  background:url('images/slider_img.png');
+  background:url('');
   text-align:center;position:relative;width:100%;
   background-position:center center;background-size:auto 444px;filter:blur(5px);
   position:absolute;content:"";display:block;top:0;opacity:.54
@@ -3528,36 +3532,37 @@ header{background:#000;position:relative;min-height:171px;border-bottom:solid #4
 .contant_center{height:100%;position:absolute;width:100%;left:0;top:0;display:flex;justify-content:center;align-items:center}
 
 .gray_shad-bottom{
-  background-image:url('images/gray_shad.png');
-  background-position:center bottom;background-size:100% auto;
+  background-image:url();
+  background-position:center bottom;
+  background-size:100% auto;
   background-repeat:no-repeat
 }
 
 .main_heading h2{
   margin:0;
-  background:url(https://images.all-free-download.com/images/wallpapers_large/drive_angry_3d_movie_8613.jpg);
+  background:url();
   float:left;min-height:92px;line-height:92px;padding:0 48px
 }
 
 .main_heading::before{
   content:"";display:block;
-  background-image:url(https://images.all-free-download.com/images/wallpapers_large/drive_angry_3d_movie_8613.jpg);
+  background-image:url();
   width:19px;height:18px;position:absolute;left:18px;top:39px;z-index:1
 }
 
 .main_heading::after{
   content:"";display:block;
-  background-image:url(https://images.all-free-download.com/images/wallpapers_large/drive_angry_3d_movie_8613.jpg);
+  background-image:url();
   width:19px;height:18px;position:absolute;right:18px;top:39px;z-index:1
 }
 .main_heading h2::before{
   content:"";
-  background:url(https://images.all-free-download.com/images/wallpapers_large/drive_angry_3d_movie_8613.jpg);
+  background:url();
   height:92px;width:25px;display:block;float:left;position:absolute;left:-30px;width:30px;top:0
 }
 .main_heading h2::after{
   content:"";
-  background:url(https://images.all-free-download.com/images/wallpapers_large/drive_angry_3d_movie_8613.jpg);
+  background:url();
   height:92px;width:25px;display:block;float:left;position:absolute;right:-30px;width:30px;top:0
 }
 
