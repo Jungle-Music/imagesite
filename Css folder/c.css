@@ -3067,15 +3067,27 @@ html,body{
 }
 
 .box_s{
+  -webkit-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -moz-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -ms-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -o-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
   box-shadow: inset -30px -30px 30px -30px rgb(255, 255,255, 0.4);
   
 }
 .box_footer{
+  -webkit-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -moz-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -ms-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -o-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
   box-shadow: inset -0px  40px 30px -30px rgb(255, 255,255, 0.4);
 
 }
 
 .box_t{
+  -webkit-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -moz-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -ms-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
+  -o-box-shadow:inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
   box-shadow: inset 30px 30px 30px -30px rgb(255, 255,255, 0.5);
 
 }
@@ -3481,9 +3493,10 @@ header{background:#000;position:relative;min-height:171px;border-bottom:solid #4
 
 .banner img{width:100%}
 .slide .vertical-center{position:absolute;left:0;top:0;width:100%;height:100%;justify-content:center}
-/*https://wallpapercave.com/wp/hrRx5ia.jpg*/
-.slide{background:url(' https://wallpapercave.com/wp/Ohq5Pdv.jpg  ');min-height:460px;background-size:auto 100%;background-position:center center}
-/* https://wallpapercave.com/wp/iptrxid.jpg*/
+/*https://wallpapercave.com/wp/Ohq5Pdv.jpg  */
+/*  https://images3.alphacoders.com/316/thumb-1920-31629.jpg */
+.slide{background:url('https://images3.alphacoders.com/674/thumb-1920-674048.jpg ');min-height:460px;background-size:auto 100%;background-position:center center}
+/* https://images2.alphacoders.com/724/thumb-1920-724132.jpg*/
 .slide_img_2{min-height:444px;background-size:auto 100%;background-position:center center}
 
 .slider_cont{max-width:945px;min-height:272px;background:#000;text-align:center;position:relative;width:100%}
